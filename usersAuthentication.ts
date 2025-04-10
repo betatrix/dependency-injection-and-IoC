@@ -34,7 +34,7 @@ class AuthController {
             this.userRepository.saveAuthenticatedUser(username);
             return true;
         } else {
-            console.log('User not find');
+            console.log('User not found');
             return false;
         }
     }
